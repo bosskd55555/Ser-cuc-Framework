@@ -3,8 +3,8 @@ package pageObjects;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 import java.util.Properties;
-
-import org.openqa.selenium.support.FindBy;
+import net.serenitybdd.core.annotations.findby.FindBy;
+//import org.openqa.selenium.support.FindBy;
 
 import net.serenitybdd.core.pages.WebElementFacade;
 import utilities.DefaultPageObject;
@@ -48,11 +48,12 @@ public class DealsPageObject extends DefaultPageObject {
 	        deals.click();
 	        logger.info("Deals link clicked");
 	        
+	       // Thread.sleep(3500);
 	        getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
 	        
 	        new_button.click();
 	        
-	        Thread.sleep(500);
+	        Thread.sleep(1500);
 	    }
 	 
 	 public void Enter_the_deals_details() throws Exception{

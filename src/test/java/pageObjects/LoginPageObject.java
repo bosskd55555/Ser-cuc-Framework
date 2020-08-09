@@ -1,8 +1,9 @@
 package pageObjects;
 
+import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.junit.Assert;
-import org.openqa.selenium.support.FindBy;
+//import org.openqa.selenium.support.FindBy;
 import utilities.DefaultPageObject;
 import utilities.TestUtil;
 
