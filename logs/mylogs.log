@@ -255,3 +255,5 @@
 [INFO ] 2020-08-10 00:06:11.894 [main] DefaultPageObject - after new button clicked
 [INFO ] 2020-08-10 00:06:18.895 [main] DefaultPageObject -  after new button clicked
 [INFO ] 2020-08-10 00:06:22.358 [main] DefaultPageObject - Deals values entered
+[INFO ] 2020-08-10 00:22:30.554 [main] DefaultPageObject - Enters the method-open URL
+[INFO ] 2020-08-10 00:22:48.682 [main] DefaultPageObject - URL opened

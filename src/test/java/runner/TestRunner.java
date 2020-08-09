@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(plugin= {"pretty","html:target"},
-	    		  features = ".\\src\\test\\resources\\features\\Deals.feature",
+	    		  features = ".\\src\\test\\resources\\features\\Login.feature",
 	    		  glue= {"stepDefinitions"},
 	    		  dryRun=false,
 		          monochrome=true)
