@@ -66,9 +66,11 @@ public class DealsPageObject extends DefaultPageObject {
 		      //withTimeoutOf(10,TimeUnit.SECONDS).waitFor(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".mjHome")));   
 		    	 // System.out.println("webelement is"+abc); 
 		      
-		      withTimeoutOf(Duration.ofSeconds(70)).find(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button"))
+		      withTimeoutOf(Duration.ofSeconds(70)).find(By.xpath("//a[@href='/deals/new']"))
               .click();
+		     // webDriver.findElement(By.xpath("//a[@href='/deals/new']")).click();
 		      
+		     
 		     // new_button.click();
 		      
 		        logger.info("after new button clicked");
