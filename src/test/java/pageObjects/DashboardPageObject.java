@@ -30,14 +30,17 @@ public class DashboardPageObject  extends DefaultPageObject{
     
     public void deals_board_click() throws InterruptedException
     {
-    	
+    	Thread.sleep(3000);
+    	logger.info("before deals link click");
     	Deals.click();
+    	logger.info("after deals link click");
     	Thread.sleep(3000);
     }
     
     
 	 public void Enter_the_deals_page() throws Exception{
 
+		 Thread.sleep(3000);
 	      prop=loadThePropertiesFile();
 	      
 	     
