@@ -2,6 +2,7 @@ package pageObjects;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
+import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.WebElement;
@@ -61,11 +62,14 @@ public class DealsPageObject extends DefaultPageObject {
 		      logger.info("before new button clicked"); 
 		      
 		     
-		      waitFor(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")));
-		    	    
+		    //if(waitFor(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")).);
+		      //withTimeoutOf(10,TimeUnit.SECONDS).waitFor(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".mjHome")));   
 		    	 // System.out.println("webelement is"+abc); 
 		      
-		      new_button.click();
+		      withTimeoutOf(Duration.ofSeconds(70)).find(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button"))
+              .click();
+		      
+		     // new_button.click();
 		      
 		        logger.info("after new button clicked");
 		        
