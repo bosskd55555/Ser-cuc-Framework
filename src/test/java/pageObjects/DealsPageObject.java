@@ -48,10 +48,13 @@ public class DealsPageObject extends DefaultPageObject {
 	        deals.click();
 	        logger.info("Deals link clicked");
 	        
-	       // Thread.sleep(3500);
+	       Thread.sleep(3500);
 	        getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
 	        
+	        logger.info("before new button clicked");
 	        new_button.click();
+	        
+	        logger.info(" after new button clicked");
 	        
 	        Thread.sleep(1500);
 	    }

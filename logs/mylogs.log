@@ -147,3 +147,13 @@
 [INFO ] 2020-08-09 13:48:49.864 [main] DefaultPageObject - Deals values entered
 [INFO ] 2020-08-09 13:49:06.333 [main] DefaultPageObject - Deals link clicked
 [INFO ] 2020-08-09 13:49:09.617 [main] DefaultPageObject - Deals values entered
+[INFO ] 2020-08-09 14:49:43.417 [main] DefaultPageObject - Enters the method-open URL
+[INFO ] 2020-08-09 14:50:05.537 [main] DefaultPageObject - URL opened
+[INFO ] 2020-08-09 14:50:19.797 [main] DefaultPageObject - Deals link clicked
+[INFO ] 2020-08-09 14:50:23.309 [main] DefaultPageObject - before new button clicked
+[INFO ] 2020-08-09 14:50:24.115 [main] DefaultPageObject -  after new button clicked
+[INFO ] 2020-08-09 14:50:28.675 [main] DefaultPageObject - Deals values entered
+[INFO ] 2020-08-09 14:50:43.365 [main] DefaultPageObject - Deals link clicked
+[INFO ] 2020-08-09 14:50:46.873 [main] DefaultPageObject - before new button clicked
+[INFO ] 2020-08-09 14:50:47.541 [main] DefaultPageObject -  after new button clicked
+[INFO ] 2020-08-09 14:50:51.241 [main] DefaultPageObject - Deals values entered
