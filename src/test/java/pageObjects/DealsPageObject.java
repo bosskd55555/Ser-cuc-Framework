@@ -22,9 +22,9 @@ public class DealsPageObject extends DefaultPageObject {
 	 private WebElementFacade deals;
 
 	
-	/* @FindBy(xpath="//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")
+	@FindBy(xpath="//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")
 	 @CacheLookup	
-	 private WebElementFacade new_button;*/
+	 private WebElementFacade new_button;
 
 
 		@FindBy(name="title")
@@ -61,16 +61,19 @@ public class DealsPageObject extends DefaultPageObject {
 	        logger.info("before new button clicked");
 	        
 	        Thread.sleep(3500);
+	      
 	        
-	      //  new_button.click();
+	        new_button.waitUntilEnabled();
+	        new_button.waitUntilVisible();
+	       new_button.click();
 	        
 	        
 	        
-	       WebElement test= getDriver().findElement(By.xpath("//*[@id='dashboard-toolbar']/div[2]/div/a[3]/button"));
+	     //  WebElement test= getDriver().findElement(By.xpath("//*[@id='dashboard-toolbar']/div[2]/div/a[3]/button"));
 	       
 	       Thread.sleep(3500);
 	       
-	      test.click();
+	      //test.click();
 	        
 	        logger.info(" after new button clicked");
 	        
