@@ -3,6 +3,10 @@ package pageObjects;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 import java.util.Properties;
+
+import org.openqa.selenium.WebElement;
+
+import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
 //import org.openqa.selenium.support.FindBy;
 
@@ -16,7 +20,9 @@ public class DealsPageObject extends DefaultPageObject {
 	 @FindBy(xpath="//*[@id=\"main-nav\"]/a[5]/span")
 	 private WebElementFacade deals;
 
+	
 	 @FindBy(xpath="//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")
+	 				
 	 private WebElementFacade new_button;
 
 
@@ -52,7 +58,12 @@ public class DealsPageObject extends DefaultPageObject {
 	        getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
 	        
 	        logger.info("before new button clicked");
+	        
 	        new_button.click();
+	        
+	       WebElement test= getDriver().findElement(By.xpath("//*[@id='dashboard-toolbar']/div[2]/div/a[3]/button"));
+	       
+	       test.click();
 	        
 	        logger.info(" after new button clicked");
 	        
@@ -69,7 +80,7 @@ public class DealsPageObject extends DefaultPageObject {
 	        deals_commision.sendKeys(prop.getProperty("Commission"));
 	        logger.info("Deals values entered");
 	        deals_save_button.click();
-	        getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
+	       // getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
 	        Thread.sleep(500);
 	    }
 	 
@@ -82,7 +93,7 @@ public class DealsPageObject extends DefaultPageObject {
 	        deals_probability.sendKeys(probability);
 	        deals_commision.sendKeys(commision);
 	        logger.info("Deals values entered");
-	        getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
+	        //getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
 	        Thread.sleep(500);
 	    }
 
