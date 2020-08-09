@@ -59,15 +59,17 @@ public class DealsPageObject extends DefaultPageObject {
 	        
 	        logger.info("before new button clicked");
 	        
-	       // new_button.click();
+	        Thread.sleep(3500);
+	        
+	        new_button.click();
 	        
 	        Thread.sleep(3500);
 	        
-	       WebElement test= getDriver().findElement(By.xpath("//*[@id='dashboard-toolbar']/div[2]/div/a[3]/button"));
+	      // WebElement test= getDriver().findElement(By.xpath("//*[@id='dashboard-toolbar']/div[2]/div/a[3]/button"));
 	       
-	       Thread.sleep(3500);
+	      
 	       
-	       test.click();
+	     //  test.click();
 	        
 	        logger.info(" after new button clicked");
 	        
