@@ -59,7 +59,7 @@ public class DealsPageObject extends DefaultPageObject {
 	        
 	        logger.info("before new button clicked");
 	        
-	        new_button.click();
+	       // new_button.click();
 	        
 	       WebElement test= getDriver().findElement(By.xpath("//*[@id='dashboard-toolbar']/div[2]/div/a[3]/button"));
 	       
