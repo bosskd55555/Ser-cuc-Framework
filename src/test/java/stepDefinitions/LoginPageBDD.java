@@ -25,10 +25,6 @@ public class LoginPageBDD {
         LoginSteps.enteringTheCredentials();
     }
 
-    @Then("Logout from the application page")
-    public void validate_Homepage_title()throws Exception {
-
-        LoginSteps.LogOutTheApplication();
-    }
+   
 
 }

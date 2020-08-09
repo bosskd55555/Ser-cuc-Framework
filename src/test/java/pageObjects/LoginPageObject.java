@@ -28,11 +28,7 @@ public class LoginPageObject extends DefaultPageObject {
     @FindBy(xpath = "/html/head/title")
     private WebElementFacade TitleName;
     
-    @FindBy(xpath = "//*[@id=\"top-header-menu\"]/div[3]/div[2]/div/i")
-    private WebElementFacade Logout_link;
-    
-    @FindBy(xpath = "//*[@id=\"top-header-menu\"]/div[3]/div[2]/div/div/a[5]/span")
-    private WebElementFacade Logout;
+  
 
     public void LaunchTheHomeUrl() throws Exception{
 
@@ -65,15 +61,7 @@ public class LoginPageObject extends DefaultPageObject {
         logger.info("Title verified");
     }
 
-    public void logoutApplication () throws InterruptedException{
-    	
-    	Logout_link.click();
-    	
-    	Thread.sleep(2000);
-    	Logout.click();
-    	
-    	
-    }
+
 
 }
 

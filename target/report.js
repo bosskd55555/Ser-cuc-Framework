@@ -34,7 +34,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DealsPageBDD.user_enters_the_deals()"
+  "location": "DashBoardBDD.user_enters_the_deals()"
 });
 formatter.result({
   "status": "passed"
@@ -54,7 +54,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginPageBDD.validate_Homepage_title()"
+  "location": "DashBoardBDD.validate_Homepage_title()"
 });
 formatter.result({
   "status": "passed"
@@ -79,7 +79,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DealsPageBDD.user_enters_the_deals()"
+  "location": "DashBoardBDD.user_enters_the_deals()"
 });
 formatter.result({
   "status": "passed"
@@ -117,7 +117,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginPageBDD.validate_Homepage_title()"
+  "location": "DashBoardBDD.validate_Homepage_title()"
 });
 formatter.result({
   "status": "passed"

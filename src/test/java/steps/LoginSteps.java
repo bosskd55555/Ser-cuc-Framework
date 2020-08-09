@@ -20,9 +20,5 @@ public class LoginSteps extends ScenarioSteps {
         LoginPageObject.enteringCredentials();
     }
 
-    @Step
-    public void LogOutTheApplication() throws Exception{
-
-        LoginPageObject.logoutApplication();
-    }
+  
 }

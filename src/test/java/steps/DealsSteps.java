@@ -7,17 +7,15 @@ public class DealsSteps {
 	
 	DealsPageObject Dealspageobject;
 	
-	@Step
-	public void Enter_the_deals_page() throws Exception
-	{
-		Dealspageobject.Enter_the_deals_page();
-		
-	}
+	
 	
 	@Step
 	public void Enter_the_deals_details() throws Exception
 	{
+		
+		
 		Dealspageobject.Enter_the_deals_details();
+		
 		
 	}
 	

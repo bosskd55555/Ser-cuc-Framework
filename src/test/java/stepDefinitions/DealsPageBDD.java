@@ -18,12 +18,7 @@ public class DealsPageBDD {
 	
 	
 	
-	@Then("user enters the deals")
-	public void user_enters_the_deals() throws Exception {
-		
-		DealsSteps.Enter_the_deals_page();
-	   
-	}
+	
 
 	@Then("Entering all the details in deals Page")
 	public void entering_all_the_details_in_deals_Page() throws Exception {
