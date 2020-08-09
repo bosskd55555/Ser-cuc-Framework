@@ -16,6 +16,7 @@ public class DashboardSteps {
 		
 		dashboardobject.deals_board_click();
 		Thread.sleep(3000);
+		
 		Dealspageobject.Enter_the_deals_page();
 		
 	}

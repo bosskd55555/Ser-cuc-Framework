@@ -203,3 +203,27 @@
 [INFO ] 2020-08-09 21:45:01.302 [main] DefaultPageObject - before new button clicked
 [INFO ] 2020-08-09 21:45:08.310 [main] DefaultPageObject -  after new button clicked
 [INFO ] 2020-08-09 21:45:12.138 [main] DefaultPageObject - Deals values entered
+[INFO ] 2020-08-09 23:11:46.783 [main] DefaultPageObject - Enters the method-open URL
+[INFO ] 2020-08-09 23:12:20.838 [main] DefaultPageObject - URL opened
+[INFO ] 2020-08-09 23:12:32.589 [main] DefaultPageObject - before deals link click
+[INFO ] 2020-08-09 23:12:33.884 [main] DefaultPageObject - after deals link click
+[INFO ] 2020-08-09 23:12:46.467 [main] DefaultPageObject - before new button clicked
+[INFO ] 2020-08-09 23:19:27.572 [main] DefaultPageObject - Enters the method-open URL
+[INFO ] 2020-08-09 23:19:48.168 [main] DefaultPageObject - URL opened
+[INFO ] 2020-08-09 23:20:00.835 [main] DefaultPageObject - before deals link click
+[INFO ] 2020-08-09 23:20:01.525 [main] DefaultPageObject - after deals link click
+[INFO ] 2020-08-09 23:20:14.065 [main] DefaultPageObject - before new button clicked
+[INFO ] 2020-08-09 23:25:42.339 [main] DefaultPageObject - Enters the method-open URL
+[INFO ] 2020-08-09 23:26:07.022 [main] DefaultPageObject - URL opened
+[INFO ] 2020-08-09 23:26:20.314 [main] DefaultPageObject - before deals link click
+[INFO ] 2020-08-09 23:26:22.416 [main] DefaultPageObject - after deals link click
+[INFO ] 2020-08-09 23:26:34.917 [main] DefaultPageObject - before new button clicked
+[INFO ] 2020-08-09 23:26:35.698 [main] DefaultPageObject - after new button clicked
+[INFO ] 2020-08-09 23:26:42.700 [main] DefaultPageObject -  after new button clicked
+[INFO ] 2020-08-09 23:26:46.673 [main] DefaultPageObject - Deals values entered
+[INFO ] 2020-08-09 23:27:03.330 [main] DefaultPageObject - before deals link click
+[INFO ] 2020-08-09 23:27:03.697 [main] DefaultPageObject - after deals link click
+[INFO ] 2020-08-09 23:27:16.199 [main] DefaultPageObject - before new button clicked
+[INFO ] 2020-08-09 23:27:16.824 [main] DefaultPageObject - after new button clicked
+[INFO ] 2020-08-09 23:27:23.826 [main] DefaultPageObject -  after new button clicked
+[INFO ] 2020-08-09 23:27:27.389 [main] DefaultPageObject - Deals values entered

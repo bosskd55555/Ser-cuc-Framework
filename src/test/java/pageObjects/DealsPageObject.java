@@ -6,6 +6,8 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -57,6 +59,11 @@ public class DealsPageObject extends DefaultPageObject {
 		      
 		      //  getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
 		      logger.info("before new button clicked"); 
+		      
+		     
+		      waitFor(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")));
+		    	    
+		    	 // System.out.println("webelement is"+abc); 
 		      
 		      new_button.click();
 		      
