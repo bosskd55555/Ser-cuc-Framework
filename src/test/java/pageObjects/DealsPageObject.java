@@ -18,11 +18,12 @@ public class DealsPageObject extends DefaultPageObject {
 	
 	 Properties prop = new Properties();
 	
-	 @FindBy(xpath="//*[@id=\"main-nav\"]/a[5]/span")
-	 private WebElementFacade deals;
+	 
 
 	
-	
+	@FindBy(xpath="//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")
+	 @CacheLookup	
+	 private WebElementFacade new_button;
 
 
 		@FindBy(name="title")
@@ -44,7 +45,42 @@ public class DealsPageObject extends DefaultPageObject {
 		private WebElementFacade deals_save_button;
 	 
 
+		 public void Enter_the_deals_page() throws Exception{
 
+			 Thread.sleep(3000);
+		      //prop=loadThePropertiesFile();
+		      
+		     
+		      Thread.sleep(3500);
+		     
+		        
+		      
+		      //  getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
+		        
+		      
+		      new_button.click();
+		      
+		        logger.info("before new button clicked");
+		        
+		        Thread.sleep(3500);
+		      
+		        
+		       // new_button.waitUntilEnabled();
+		        //new_button.waitUntilVisible();
+		      
+		        
+		        
+		        
+		     //  WebElement test= getDriver().findElement(By.xpath("//*[@id='dashboard-toolbar']/div[2]/div/a[3]/button"));
+		       
+		       Thread.sleep(3500);
+		       
+		      //test.click();
+		        
+		        logger.info(" after new button clicked");
+		        
+		        Thread.sleep(1500);
+		    }
 	 
 	 public void Enter_the_deals_details() throws Exception{
 

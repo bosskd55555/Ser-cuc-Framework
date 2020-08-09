@@ -2,10 +2,12 @@ package steps;
 
 import net.thucydides.core.annotations.Step;
 import pageObjects.DashboardPageObject;
+import pageObjects.DealsPageObject;
 
 public class DashboardSteps {
 	
 	DashboardPageObject dashboardobject;
+	DealsPageObject Dealspageobject;
 
 	@Step
 	public void Enter_the_deals_page() throws Exception
@@ -14,7 +16,7 @@ public class DashboardSteps {
 		
 		dashboardobject.deals_board_click();
 		Thread.sleep(3000);
-		dashboardobject.Enter_the_deals_page();
+		Dealspageobject.Enter_the_deals_page();
 		
 	}
 	

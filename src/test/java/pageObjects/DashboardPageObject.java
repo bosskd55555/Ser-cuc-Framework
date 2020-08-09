@@ -41,7 +41,7 @@ public class DashboardPageObject  extends DefaultPageObject{
 	 public void Enter_the_deals_page() throws Exception{
 
 		 Thread.sleep(3000);
-	      prop=loadThePropertiesFile();
+	      //prop=loadThePropertiesFile();
 	      
 	     
 	      Thread.sleep(3500);
