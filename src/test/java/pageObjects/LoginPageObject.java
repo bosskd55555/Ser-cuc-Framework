@@ -35,7 +35,9 @@ public class LoginPageObject extends DefaultPageObject {
 
     public void LaunchTheHomeUrl() throws Exception{
 
+    	logger.info("Enters the method-open URL");
         prop=loadThePropertiesFile();
+        Thread.sleep(4000);
         getDriver().get(prop.getProperty("baseURL"));
         logger.info("URL opened");
         getDriver().manage().timeouts().implicitlyWait(20, SECONDS);

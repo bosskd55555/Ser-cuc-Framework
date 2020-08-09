@@ -1,0 +1,12 @@
+steps\LoginSteps.class
+pageObjects\DealsPageObject.class
+stepDefinitions\DealsPageBDD.class
+DataObjects\Deals_details.class
+utilities\DriverInitialization.class
+utilities\DefaultPageObject.class
+steps\DealsSteps.class
+stepDefinitions\LoginPageBDD.class
+utilities\TestBase.class
+utilities\TestUtil.class
+runner\TestRunner.class
+pageObjects\LoginPageObject.class
