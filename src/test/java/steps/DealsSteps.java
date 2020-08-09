@@ -26,10 +26,7 @@ public class DealsSteps {
 		
 	}
 
-	public void Enter_the_deals() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 	
 
 }
