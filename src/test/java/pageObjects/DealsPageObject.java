@@ -5,6 +5,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 import java.util.Properties;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -22,7 +23,7 @@ public class DealsPageObject extends DefaultPageObject {
 
 	
 	 @FindBy(xpath="//*[@id=\"dashboard-toolbar\"]/div[2]/div/a[3]/button")
-	 				
+	 @CacheLookup	
 	 private WebElementFacade new_button;
 
 

@@ -41,7 +41,7 @@ public class LoginPageObject extends DefaultPageObject {
         Thread.sleep(4000);
         getDriver().get(prop.getProperty("baseURL"));
         logger.info("URL opened");
-        getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
+        //getDriver().manage().timeouts().implicitlyWait(20, SECONDS);
         getDriver().manage().window().maximize();
         Thread.sleep(500);
     }
